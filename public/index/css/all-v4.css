@@ -1,0 +1,711 @@
+/* Reset */
+/* line 4, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation-fill-mode: both;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 17, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+::selection {
+  background: rgba(0, 100, 180, 0.33); }
+
+/* line 21, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+input[type="checkbox"] {
+  -webkit-appearance: checkbox; }
+
+/* line 25, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+select {
+  -webkit-appearance: menulist-button;
+  border: 1px solid #a0a0a0; }
+
+/* line 42, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 52, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+/* line 57, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 61, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+i, em {
+  font-style: italic; }
+
+/* line 66, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 71, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+/* line 76, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 80, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 85, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 90, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 4, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+::selection {
+  background-color: rgba(199, 0, 0, 0.66);
+  color: #FFF; }
+
+/* line 12, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+html,
+body,
+article,
+#article-body {
+  overflow-x: hidden; }
+
+/* line 16, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+body {
+  background-color: #1b1b1b;
+  font-family: "Meiji Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px; }
+
+/* line 24, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+  /* line 26, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+  h1 a, h1 a:link, h1 a:visited, h1 a:hover, h1 a:active, h1 a:focus, h2 a, h2 a:link, h2 a:visited, h2 a:hover, h2 a:active, h2 a:focus, h3 a, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active, h3 a:focus, h4 a, h4 a:link, h4 a:visited, h4 a:hover, h4 a:active, h4 a:focus, h5 a, h5 a:link, h5 a:visited, h5 a:hover, h5 a:active, h5 a:focus, h6 a, h6 a:link, h6 a:visited, h6 a:hover, h6 a:active, h6 a:focus {
+    color: inherit;
+    border: none;
+    cursor: default; }
+
+/* line 36, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+p,
+ul,
+ol,
+h5 {
+  max-width: 435px; }
+
+/* line 40, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+li {
+  margin: 6px 0; }
+
+/* line 44, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+img {
+  height: auto; }
+
+/* line 48, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+a {
+  border-bottom: 2px solid rgba(199, 0, 0, 0.25);
+  color: rgba(199, 0, 0, 0.75);
+  display: inline-block;
+  height: 19px;
+  -webkit-transition: border-bottom 0.15s;
+  -moz-transition: border-bottom 0.15s;
+  -ms-transition: border-bottom 0.15s;
+  -o-transition: border-bottom 0.15s;
+  transition: border-bottom 0.15s; }
+  /* line 58, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_base.scss */
+  a:hover {
+    border-bottom: 2px solid rgba(199, 0, 0, 0.5); }
+
+@font-face {
+  font-family: "Meiji Sans";
+  src: url(".. /app/uploads/meiji-sans-book.eot");
+  src: url("/app/uploads/meiji-sans-book.eot?#iefix") format("embedded-opentype"), url("/app/uploads/meiji-sans-book./app/uploads") format("/app/uploads"), url("../../app/uploads/meiji-sans-book.woff") format("truetype"), url("/app/uploads/meiji-sans-book.svg#1f22a7ff26562554f5409afd9c01c2d2") format("svg");
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Meiji Sans";
+  src: url("/app/uploads/meiji-sans-book-italic.eot");
+  src: url("/app/uploads/meiji-sans-book-italic.eot?#iefix") format("embedded-opentype"), url("/app/uploads/meiji-sans-book-italic./app/uploads") format("/app/uploads"), url("/app/uploads/meiji-sans-book-italic.woff") format("truetype"), url("/app/uploads/meiji-sans-book-italic.svg#ac0abfd22f3af5e4ee3e9910996d250f") format("svg");
+  font-style: italic;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Meiji Sans";
+  src: url("/app/uploads/meiji-sans-bold.eot");
+  src: url("/app/uploads/meiji-sans-bold.eot?#iefix") format("embedded-opentype"), url("/app/uploads/meiji-sans-bold./app/uploads") format("/app/uploads"), url("/app/uploads/meiji-sans-bold.woff") format("truetype"), url("/app/uploads/meiji-sans-bold.svg#c71571a66774ab814a6fa943c55d8192") format("svg");
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Meiji Sans";
+  src: url("/app/uploads/meiji-sans-bold-italic.eot");
+  src: url("/app/uploads/meiji-sans-bold-italic.eot?#iefix") format("embedded-opentype"), url("/app/uploads/meiji-sans-bold-italic./app/uploads") format("/app/uploads"), url("/app/uploads/meiji-sans-bold-italic.woff") format("truetype"), url("/app/uploads/meiji-sans-bold-italic.svg#758aa3be74b27523f599b1dbb0a28845") format("svg");
+  font-style: italic;
+  font-weight: 700; }
+
+/* line 3, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_grids.scss */
+#column-grid {
+  display: none;
+  pointer-events: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20; }
+  /* line 12, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_grids.scss */
+  #column-grid span {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 3.125%;
+    background-color: rgba(255, 0, 0, 0); }
+  /* line 19, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_grids.scss */
+  #column-grid span:nth-child(2n) {
+    background-color: rgba(255, 0, 0, 0.05); }
+  /* line 22, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_grids.scss */
+  #column-grid span:nth-child(8n) {
+    border-right: 1px solid rgba(255, 0, 0, 0.2); }
+
+/* line 6, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+h5 {
+  color: white;
+  width: 170px;
+  display: block;
+  margin-top: 0;
+  line-height: 20px; }
+  /* line 12, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  h5 a {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    height: auto;
+    width: 182px; }
+
+/* line 24, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+nav {
+  width: 290px;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 0; }
+  /* line 33, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  nav .posts-list {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    padding: 11px 22px 44px;
+    padding-left: 32px;
+    background-color: #1b1b1b;
+    display: block;
+    height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; }
+    /* line 48, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+    nav .posts-list li {
+      margin: 22px 0; }
+      /* line 50, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+      nav .posts-list li > a {
+        display: block;
+        width: 170px;
+        height: 110px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        border-bottom: none;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box; }
+    /* line 63, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+    nav .posts-list img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #232323;
+      width: 100%;
+      height: auto; }
+
+/* line 74, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+.nav-toggle {
+  font-size: 0;
+  color: transparent;
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: #ec4938;
+  box-shadow: 0 5px 8px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-transform: scala(1, 1);
+  -moz-transform: scala(1, 1);
+  -ms-transform: scala(1, 1);
+  -o-transform: scala(1, 1);
+  transform: scala(1, 1);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -webkit-transform;
+  -ms-transition-property: -webkit-transform;
+  -o-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -webkit-transition-duration: 0.12s;
+  -moz-transition-duration: 0.12s;
+  -ms-transition-duration: 0.12s;
+  -o-transition-duration: 0.12s;
+  transition-duration: 0.12s; }
+  /* line 103, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  .nav-toggle:hover {
+    -webkit-transform: scale(1.06, 1.06);
+    -moz-transform: scale(1.06, 1.06);
+    -ms-transform: scale(1.06, 1.06);
+    -o-transform: scale(1.06, 1.06);
+    transform: scale(1.06, 1.06); }
+  /* line 110, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  .nav-toggle:active {
+    -webkit-transform: scale(0.97, 0.97);
+    -moz-transform: scale(0.97, 0.97);
+    -ms-transform: scale(0.97, 0.97);
+    -o-transform: scale(0.97, 0.97);
+    transform: scale(0.97, 0.97); }
+  /* line 117, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  .nav-toggle::selection {
+    background-color: rgba(199, 0, 0, 0); }
+
+/* line 122, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+.close-nav {
+  font-size: 0;
+  color: transparent;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 290px;
+  z-index: -1; }
+  /* line 132, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_nav.scss */
+  .close-nav.active {
+    display: block;
+    z-index: 22; }
+
+/* line 3, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article.scss */
+article {
+  color: #4d4d4d;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: relative;
+  z-index: 10;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -webkit-transform;
+  -ms-transition-property: -webkit-transform;
+  -o-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -ms-transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-overflow-scrolling: touch; }
+  /* line 32, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article.scss */
+  article.active {
+    -webkit-transform: translate3d(-290px, 0, 0);
+    -moz-transform: translate3d(-290px, 0, 0);
+    -ms-transform: translate3d(-290px, 0, 0);
+    -o-transform: translate3d(-290px, 0, 0);
+    transform: translate3d(-290px, 0, 0); }
+
+/* line 3, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+h1 {
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  width: 75%;
+  display: block;
+  cursor: default; }
+  @media only screen and (max-width: 625px) {
+    /* line 3, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+    h1 {
+      width: 100%;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -1px;
+      margin-bottom: 20px; } }
+
+/* line 21, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+h3 {
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  margin: 10px 0;
+  cursor: default;
+  display: block; }
+  @media only screen and (max-width: 625px) {
+    /* line 21, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+    h3 {
+      font-size: 18px;
+      line-height: 15px;
+      letter-spacing: 0; } }
+
+/* The cover container */
+/* line 37, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+#article-cover {
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  /* The cover body text */
+  /* The cover image */ }
+  /* line 47, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+  #article-cover span {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 100px 3.125% 50px;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.66)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.66));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.66));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.66));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.66)); }
+  /* line 61, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-cover.scss */
+  #article-cover img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #444;
+    border: none;
+    outline-width: 0;
+    box-shadow: none;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.12s; }
+
+/* line 3, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+#article-body {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 12.504%;
+  background-color: #f7f7f7; }
+  /* line 10, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+  #article-body p,
+  #article-body ul,
+  #article-body h5 {
+    color: #4d4d4d;
+    display: block;
+    width: 87.496%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18.756%;
+    margin-bottom: 18.756%;
+    font-size: 16px;
+    line-height: 23px; }
+    @media only screen and (max-width: 625px) {
+      /* line 10, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body p,
+      #article-body ul,
+      #article-body h5 {
+        width: 93.748%;
+        max-width: 100%; } }
+    /* line 25, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body p a,
+    #article-body ul a,
+    #article-body h5 a {
+      height: 21px; }
+    /* line 28, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body p b,
+    #article-body ul b,
+    #article-body h5 b {
+      display: inline-block;
+      margin-bottom: 7px; }
+  /* line 33, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+  #article-body h5 {
+    margin-top: 6.252%;
+    margin-bottom: 0; }
+  /* line 37, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+  #article-body ul {
+    margin-top: 0;
+    margin-bottom: 6.252%;
+    list-style-type: disc; }
+    @media only screen and (max-width: 625px) {
+      /* line 37, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body ul {
+        margin-left: 7.252%;
+        width: 89.622%;
+        max-width: 100%; } }
+  /* line 47, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+  #article-body img {
+    display: block;
+    width: 74.992%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.252%;
+    margin-bottom: 10px; }
+    @media only screen and (max-width: 625px) {
+      /* line 47, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body img {
+        width: 93.748%; } }
+    /* line 57, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body img + p {
+      color: gray;
+      width: 74.992%;
+      max-width: 290px;
+      text-align: left;
+      margin-left: 12.504%;
+      margin-top: 0;
+      margin-bottom: 6.252%;
+      padding-bottom: 1.563%;
+      font-size: 14px;
+      line-height: 18px; }
+      @media only screen and (max-width: 625px) {
+        /* line 57, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+        #article-body img + p {
+          width: 93.748%;
+          margin-left: 3.126%;
+          max-width: 100%; } }
+      /* line 73, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body img + p a {
+        height: 16px; }
+    /* line 77, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body img.full {
+      width: 100%; }
+      @media only screen and (max-width: 625px) {
+        /* line 77, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+        #article-body img.full {
+          width: 93.748%; } }
+      /* line 82, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body img.full + p {
+        margin-left: 10px; }
+    /* line 86, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body img.portrait {
+      width: 43.732%; }
+      /* line 88, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body img.portrait + p {
+        margin-left: 28.134%; }
+  /* line 93, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+  #article-body p.break {
+    color: #4d4d4d;
+    margin-top: 18.756%;
+    margin-bottom: 18.756%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 435px !important; }
+    @media only screen and (max-width: 625px) {
+      /* line 93, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+      #article-body p.break {
+        max-width: 100% !important; } }
+    /* line 106, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-body.scss */
+    #article-body p.break a {
+      height: 23px; }
+
+/* line 5, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+#article-footer h4:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin: 10px 0 20px;
+  cursor: pointer; }
+/* line 15, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+#article-footer .previous-article h4:after,
+#article-footer .next-article h4:after {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+/* line 20, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+.article-location {
+  width: 100%;
+  height: 380px;
+  display: block;
+  background-color: #FCF1D5; }
+
+/* line 28, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+.previous-article,
+.next-article {
+  padding: 60px 3.126% 50px;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background-size: 100% auto;
+  background-size: cover; }
+  /* line 39, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article h1,
+  .previous-article h3,
+  .previous-article h4,
+  .next-article h1,
+  .next-article h3,
+  .next-article h4 {
+    pointer-events: none; }
+  /* line 45, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article a,
+  .previous-article h1 a,
+  .previous-article h3 a,
+  .previous-article h4 a,
+  .next-article a,
+  .next-article h1 a,
+  .next-article h3 a,
+  .next-article h4 a {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%; }
+  /* line 51, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article h1,
+  .next-article h1 {
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    width: 75%; }
+    @media only screen and (max-width: 625px) {
+      /* line 51, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+      .previous-article h1,
+      .next-article h1 {
+        width: 100%;
+        font-size: 18px;
+        line-height: 15px;
+        letter-spacing: 0;
+        margin-bottom: 0; } }
+  /* line 65, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article h3,
+  .next-article h3 {
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0; }
+    @media only screen and (max-width: 625px) {
+      /* line 65, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+      .previous-article h3,
+      .next-article h3 {
+        font-size: 18px;
+        line-height: 15px;
+        letter-spacing: 0; } }
+  /* line 75, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article > a,
+  .next-article > a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.8)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    background-size: 100% 200%;
+    background-position: 0 100%;
+    border-bottom: none;
+    -webkit-transition: background-position 0.15s;
+    -moz-transition: background-position 0.15s;
+    -ms-transition: background-position 0.15s;
+    -o-transition: background-position 0.15s;
+    transition: background-position 0.15s; }
+    /* line 92, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+    .previous-article > a:hover,
+    .next-article > a:hover {
+      background-position: 0 0; }
+  /* line 96, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .previous-article img,
+  .next-article img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; }
+
+/* line 107, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+.next-article h1, .next-article h3, .next-article h4 {
+  float: right;
+  text-align: right;
+  clear: both; }
+/* line 112, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+.next-article h4:after {
+  float: right; }
+
+/* line 117, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+.about-site {
+  background: #f7f7f7;
+  overflow: hidden; }
+  /* line 120, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .about-site p {
+    margin-bottom: 10px; }
+  /* line 124, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .about-site ul,
+  .about-site li {
+    margin: 0; }
+  /* line 128, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .about-site .col,
+  .about-site .col-2 {
+    padding: 60px 3.126% 50px;
+    width: 25.008%;
+    float: left; }
+  /* line 133, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+  .about-site .col-2 {
+    width: 46.89%; }
+  @media only screen and (max-width: 625px) {
+    /* line 138, /Users/Nuno/Code/15-days-in-japan/source/stylesheets/_article-footer.scss */
+    .about-site .col,
+    .about-site .col-2 {
+      width: 93.748%; } }
